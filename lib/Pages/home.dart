@@ -1,4 +1,8 @@
 import 'package:bankappui/Pages/carddetails.dart';
+import 'package:bankappui/Pages/exchangerate.dart';
+import 'package:bankappui/Pages/profilemain.dart';
+import 'package:bankappui/Pages/statistics.dart';
+import 'package:bankappui/Pages/wallet.dart';
 import 'package:bankappui/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -12,9 +16,9 @@ class HomePage extends StatefulWidget {
 
 List<Widget> navIcons = [
   SvgPicture.asset('Assets/Icons/Sidebar/chart.svg'),
-   SvgPicture.asset('Assets/Icons/'),
-   SvgPicture.asset('Assets/Icons/'),
-    SvgPicture.asset('Assets/Icons/'),
+   SvgPicture.asset('Assets/Icons/Sidebar/chart.svg'),
+   SvgPicture.asset('Assets/Icons/Sidebar/chart.svg'),
+    SvgPicture.asset('Assets/Icons/Sidebar/chart.svg'),
 ];
 
 int selectedIndex = 0;
@@ -54,10 +58,10 @@ class _HomePageState extends State<HomePage> {
     ),
     SizedBox(height: 90,),
     GestureDetector(
-     OnTap: () {
+     onTap: () {
                Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => CalenderPage()),
+                      MaterialPageRoute(builder: (context) => WalletScreen()),
                     );
       },
       child: ListTile(
@@ -69,7 +73,14 @@ class _HomePageState extends State<HomePage> {
         title: Text('My Wallet'),
       ),
     ),
+    //1
     GestureDetector(
+      onTap: () {
+               Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => ProfileSettingScreen()),
+                    );
+      },
       child: ListTile(
         leading: SvgPicture.asset(
           'Assets/Icons/Sidebar/prof.svg',
@@ -79,13 +90,23 @@ class _HomePageState extends State<HomePage> {
         title: Text('Profile'),
       ),
     ),
-    ListTile(
-      leading: SvgPicture.asset(
-        'Assets/Icons/Sidebar/chart.svg',
-        width: 24,
-        height: 24,
+    //2
+
+    GestureDetector(
+      onTap: () {
+             Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => StatisticsScreen()),
+                    );
+      },
+      child: ListTile(
+        leading: SvgPicture.asset(
+          'Assets/Icons/Sidebar/chart.svg',
+          width: 24,
+          height: 24,
+        ),
+        title: Text('Statistics'),
       ),
-      title: Text('Statistics'),
     ),
     ListTile(
       leading: SvgPicture.asset(

@@ -97,7 +97,69 @@ flutter:
     - Assets/Icons/Sidebar/prof.svg
     - Assets/Icons/Sidebar/set.svg
     - Assets/Icons/Sidebar/trans.svg
+
+
+
+
     
+    - assets2/images/arrow-left.svg
+    - assets2/images/arrow-right.svg
+    - assets2/images/arrows-left.svg
+    - assets2/images/calendar.svg
+    - assets2/images/25.svg
+    - assets2/images/bolt.svg
+    - assets2/images/cart.svg
+    - assets2/images/mobile.svg
+    - assets2/images/transportation.svg
+    - assets2/images/tv.svg
+    - assets2/images/pharm.svg
+    - assets2/images/tickets.svg
+    - assets2/images/hotel.svg
+    - assets2/images/flight.svg
+    - assets2/images/fuel.svg
+    - assets2/images/play.svg
+    - assets2/images/food.svg
+    - assets2/images/check.svg
+    - assets2/images/Ellipse.svg
+    - assets2/images/Ellipse2.png
+    - assets2/images/Ellipse1.svg
+    - assets2/images/blueCheck.svg
+    - assets2/images/bottomLeft.svg
+    - assets2/images/topRight.svg
+    - assets2/images/plus.svg
+    - assets2/images/tag.svg
+    - assets2/images/shoppingBag.svg
+    - assets2/images/bubbleTea.svg
+    - assets2/images/chevron.svg
+    - assets2/images/edit.svg
+    - assets2/images/pen.svg
+    - assets2/images/blueTick.svg
+    - assets2/images/whiteTick.svg
+    - assets2/images/dbs.png
+    - assets2/images/citi.png
+    - assets2/images/fsb.png
+    - assets2/images/nib.png
+    - assets2/images/MaskGraph.png
+    - assets2/images/Maskgroup.png
+    - assets2/images/cards1.png
+    - assets2/images/cards2.png
+    - assets2/images/cards3.png
+    - assets2/images/ScanQR.png
+    - assets2/images/expenses.png
+    - assets2/images/monica.png
+    - assets2/images/dollar.png
+    - assets2/images/dollars.png
+    - assets2/images/delivery.png
+    - assets2/images/sarah.png
+    - assets2/images/shop.png
+    - assets2/images/profile.png
+    - assets2/images/ms.png
+    - assets2/images/ma.png
+    - assets2/images/js.png
+    - assets2/images/hr.png
+    - assets2/images/lu.png
+    - assets2/images/add.png
+     
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
